@@ -1,0 +1,85 @@
+* {
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+    /* border: 10px; */
+}
+
+body{
+    color: blue;
+}
+
+.container{
+    border: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    /* width: 50%; */
+    align-content: center;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: aliceblue;
+    box-shadow: 0 3px 5px rgba(0, 0, 1, 1);
+}
+
+nav h1{
+    color: black;
+}
+
+nav a{
+    color: blue;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    color: indigo;
+    border-bottom: 2px solid grey;
+    /* cursor: pointer; */
+}
+
+ nav ul{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-betweens;
+    gap: 10px;
+}
+
+.my-img{
+    height: 220px;
+    object-position: center-top;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+}
+
+.img-info{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0px;
+}
+
+.info{
+    border: 10px;
+    width: 200px;
+    padding: 10px 5px;
+}
+
+.button-row{
+    background-color: blue;
+    color: black;
+    border-radius: 10px;
+}
